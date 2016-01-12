@@ -17,20 +17,9 @@ public class Player : MonoBehaviour {
 		
 		float h = Input.GetAxisRaw ("Horizontal");
 		float v = Input.GetAxisRaw ("Vertical");
-		bool jump = Input.GetKeyDown ("space");
-
-		//transform.Rotate(0, h * turningSpeed * Time.deltaTime, 0);
 		
 		anim.SetInteger ("V_Dir", (int)v);
 		anim.SetInteger ("H_Dir", (int)h);
 		
-	}
-
-	bool isGrounded() {
-		if (rigibody.velocity.y == 0) {
-			return true;
-		} else {
-			return false;
-		}
 	}
 }
