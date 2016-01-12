@@ -18,12 +18,11 @@ public class Player : MonoBehaviour {
 		float h = Input.GetAxisRaw ("Horizontal");
 		float v = Input.GetAxisRaw ("Vertical");
 		bool jump = Input.GetKeyDown ("space");
+
+		//transform.Rotate(0, h * turningSpeed * Time.deltaTime, 0);
 		
-		transform.Rotate(0, h * turningSpeed * Time.deltaTime, 0);
-		
-		anim.SetInteger ("Direction", (int)v);
-		anim.SetBool ("Jump", jump);
-		anim.SetBool ("Grounded", isGrounded ());
+		anim.SetInteger ("V_Dir", (int)v);
+		anim.SetInteger ("H_Dir", (int)h);
 		
 	}
 
