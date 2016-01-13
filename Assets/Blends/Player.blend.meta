@@ -78,6 +78,7 @@ ModelImporter:
     4300004: Dha_001
     7400000: Default Take
     7400002: Idle
+    7400004: Swing1
     9500000: //RootNode
     13700000: Character
   materials:
