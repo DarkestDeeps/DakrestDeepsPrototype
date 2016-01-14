@@ -6,11 +6,9 @@ public class Player : MonoBehaviour {
 	public float movementSpeed = 10;
 	public float turningSpeed = 120;
 	private Animator anim;
-	private Rigidbody rigibody;
 	
 	void Start() {
 		anim = gameObject.GetComponent<Animator>();
-		rigibody = gameObject.GetComponent<Rigidbody>();
 	}
 	
 	void Update() {
