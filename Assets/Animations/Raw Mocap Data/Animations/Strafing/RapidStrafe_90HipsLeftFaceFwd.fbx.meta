@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 799dce9081f369e4c95f8cf642b959c6
+guid: 15fe083e5eaac314d8eea8ef3ed65046
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
@@ -161,7 +161,7 @@ ModelImporter:
     400152: Spine
     400154: TongueBack
     400156: TongueTip
-    7400000: RapidStrafeAvoid_ToLeft
+    7400000: RapidStrafe_90HipsLeftFaceFwd
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -173,7 +173,10 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "MuscleClip 'RapidStrafe_90HipsLeftFaceFwd' conversion
+      warning: Bone length is different in avatar and animation\n\n     'LeftLeg'
+      : position error = 7.696520 mm\n\n     'LeftFoot' : position error = 15.233778
+      mm\n\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
@@ -184,19 +187,19 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: RapidStrafeAvoid_ToLeft
-      takeName: _61_62__a_U1_M_P_RapidStrafeAvoid_ToLeft__Fb_p90_No_0_1
-      firstFrame: 30
-      lastFrame: 593
+      name: RapidStrafe_90HipsLeftFaceFwd
+      takeName: _60_a_U1_M_P_RapidStrafe_90HipsLeftFaceFwd__Fb_p90_No_0_PJ_5
+      firstFrame: 307
+      lastFrame: 342
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
